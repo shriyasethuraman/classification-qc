@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "classification-qc"
+version = "1.0.0"
+description = "Quality checks for taxonomic classification output"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [{ name = "Shriya Sethuraman" }]
+keywords = ["metagenomics", "taxonomic-classification", "quality-control", "bioinformatics"]
+dependencies = []
+
+[tool.setuptools]
+packages = ["classification_qc"]
